@@ -1,0 +1,16 @@
+#!/usr/bin/zsh
+
+echo "===Updating the package list==="
+sudo apt update
+echo "===Upgrading the package list==="
+sudo apt upgrade
+echo "===Installing the virtualbox guest addition==="
+sudo apt install -y --reinstall virtualbox-guest-x11
+echo "===Installing GoBuster==="
+sudo apt install gobuster
+echo "===Installing sublist3r==="
+sudo apt install sublist3r
+echo "===Installing amass==="
+sudo apt install amass
+
+echo "===Script is complete.==="
