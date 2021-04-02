@@ -1,16 +1,39 @@
 #!/usr/bin/zsh
 
+echo "==============================="
 echo "===Updating the package list==="
+echo "==============================="
 sudo apt update
+
+echo "================================"
 echo "===Upgrading the package list==="
+echo "================================"
 sudo apt upgrade
+
+echo "=============================================="
 echo "===Installing the virtualbox guest addition==="
+echo "=============================================="
 sudo apt install -y --reinstall virtualbox-guest-x11
+
+echo "========================="
 echo "===Installing GoBuster==="
+echo "========================="
 sudo apt install gobuster
+
+echo "=========================="
 echo "===Installing sublist3r==="
+echo "=========================="
 sudo apt install sublist3r
+
+echo "======================"
 echo "===Installing amass==="
+echo "======================"
 sudo apt install amass
+
+echo "========================="
+echo "===Installing Seclists==="
+echo "========================="
+sudo apt install seclists
+
 
 echo "===Script is complete.==="
