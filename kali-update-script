@@ -35,5 +35,30 @@ echo "===Installing Seclists==="
 echo "========================="
 sudo apt install seclists
 
+echo "==========================="
+echo "===Instaling feroxbuster==="
+echo "==========================="
+sudo apt install feroxbuster
+
+echo "======================"
+echo "===Instaling pwncat==="
+echo "======================"
+sudo apt install pwncat
+
+echo "============================="
+echo "===Installing Python3 Pip3==="
+echo "============================="
+sudo apt install python3-pip
+
+echo "======================"
+echo "===Installing Updog==="
+echo "======================"
+sudo pip3 install updog
+
+echo "========================="
+echo "===Installing Rustscan==="
+echo "========================="
+wget -v https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb
+dpkg -i rustscan_2.0.1_amd64.deb
 
 echo "===Script is complete.==="
