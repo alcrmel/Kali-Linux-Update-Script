@@ -11,49 +11,9 @@ echo "================================"
 sudo apt upgrade
 
 echo "=============================================="
-echo "===Installing the virtualbox guest addition==="
+echo "===Installing additional packages==="
 echo "=============================================="
-sudo apt install -y --reinstall virtualbox-guest-x11
-
-echo "========================="
-echo "===Installing GoBuster==="
-echo "========================="
-sudo apt install gobuster
-
-echo "=========================="
-echo "===Installing sublist3r==="
-echo "=========================="
-sudo apt install sublist3r
-
-echo "======================"
-echo "===Installing amass==="
-echo "======================"
-sudo apt install amass
-
-echo "========================="
-echo "===Installing Seclists==="
-echo "========================="
-sudo apt install seclists
-
-echo "==========================="
-echo "===Instaling feroxbuster==="
-echo "==========================="
-sudo apt install feroxbuster
-
-echo "======================"
-echo "===Instaling pwncat==="
-echo "======================"
-sudo apt install pwncat
-
-echo "============================="
-echo "===Installing Python3 Pip3==="
-echo "============================="
-sudo apt install python3-pip
-
-echo "======================"
-echo "===Installing Updog==="
-echo "======================"
-sudo pip3 install updog
+sudo apt install -y --reinstall virtualbox-guest-x11 fish terminator gedit python3-pip vim-gtk3 gobuster sublist3r seclists pwncat updog
 
 echo "========================="
 echo "===Installing Rustscan==="
